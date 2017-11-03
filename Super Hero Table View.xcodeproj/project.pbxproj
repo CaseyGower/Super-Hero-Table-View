@@ -7,20 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9F019B41FAA9E3800CAB6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F019B31FAA9E3800CAB6F1 /* AppDelegate.swift */; };
-		C9F019B61FAA9E3800CAB6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F019B51FAA9E3800CAB6F1 /* ViewController.swift */; };
+		C9E7EC6F1FABFB6000D691D9 /* SuperHero TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7EC6E1FABFB6000D691D9 /* SuperHero TableViewController.swift */; };
 		C9F019B91FAA9E3800CAB6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F019B71FAA9E3800CAB6F1 /* Main.storyboard */; };
-		C9F019BB1FAA9E3800CAB6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F019BA1FAA9E3800CAB6F1 /* Assets.xcassets */; };
-		C9F019BE1FAA9E3800CAB6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F019BC1FAA9E3800CAB6F1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9E7EC6E1FABFB6000D691D9 /* SuperHero TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuperHero TableViewController.swift"; sourceTree = "<group>"; };
 		C9F019B01FAA9E3800CAB6F1 /* Super Hero Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Hero Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F019B31FAA9E3800CAB6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9F019B51FAA9E3800CAB6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9F019B81FAA9E3800CAB6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9F019BA1FAA9E3800CAB6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9F019BD1FAA9E3800CAB6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F019BF1FAA9E3800CAB6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +29,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9E7EC701FABFBF800D691D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C9F019A71FAA9E3800CAB6F1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +55,9 @@
 		C9F019B21FAA9E3800CAB6F1 /* Super Hero Table View */ = {
 			isa = PBXGroup;
 			children = (
-				C9F019B31FAA9E3800CAB6F1 /* AppDelegate.swift */,
-				C9F019B51FAA9E3800CAB6F1 /* ViewController.swift */,
+				C9E7EC701FABFBF800D691D9 /* Supporting Files */,
 				C9F019B71FAA9E3800CAB6F1 /* Main.storyboard */,
-				C9F019BA1FAA9E3800CAB6F1 /* Assets.xcassets */,
-				C9F019BC1FAA9E3800CAB6F1 /* LaunchScreen.storyboard */,
+				C9E7EC6E1FABFB6000D691D9 /* SuperHero TableViewController.swift */,
 				C9F019BF1FAA9E3800CAB6F1 /* Info.plist */,
 			);
 			path = "Super Hero Table View";
@@ -123,8 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F019BE1FAA9E3800CAB6F1 /* LaunchScreen.storyboard in Resources */,
-				C9F019BB1FAA9E3800CAB6F1 /* Assets.xcassets in Resources */,
 				C9F019B91FAA9E3800CAB6F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F019B61FAA9E3800CAB6F1 /* ViewController.swift in Sources */,
-				C9F019B41FAA9E3800CAB6F1 /* AppDelegate.swift in Sources */,
+				C9E7EC6F1FABFB6000D691D9 /* SuperHero TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +146,6 @@
 				C9F019B81FAA9E3800CAB6F1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C9F019BC1FAA9E3800CAB6F1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9F019BD1FAA9E3800CAB6F1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
